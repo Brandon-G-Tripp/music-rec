@@ -1,7 +1,5 @@
 (ns music-rec.core
-  (:gen-class))
+  (:require [clojure.data.csv :as csv]))
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+(defn load-data [file-path]
+  {:artists ["Artist 1"]})
